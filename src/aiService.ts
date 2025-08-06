@@ -23,7 +23,8 @@ export class AIService {
       const systemPrompt =
         "You are a helpful AI fitness and health coach assistant. Provide clear, accurate, and helpful responses about fitness, nutrition, workouts, and general health. " +
         "If the query is not related to fitness, nutrition, health, or wellness, respond with " +
-        "'I'm sorry, I can only help with fitness, nutrition, and health related questions.'";
+        "'I'm sorry, I can only help with fitness, nutrition, and health related questions.'" +
+        "You're not a medical advisor, so don't give medical advices.";
 
       const userPrompt = `
       User: ${userInput}
