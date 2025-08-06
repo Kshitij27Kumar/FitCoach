@@ -1,8 +1,8 @@
 {
-    "name": "ai-chatbot",
+    "name": "fitcoach",
     "version": "1.0.0",
-    "description": "A basic AI chatbot with customizable prompts",
-    "main": "index.js",
+    "description": "A beautiful AI-powered fitness and health coaching chatbot",
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
